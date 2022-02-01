@@ -12,7 +12,7 @@ export interface RelationType {
 
 export type DataType = "string" | "rte" | "asset" | "labeledLink" | RelationType;
 
-export interface BaseComponentConfig<T extends {}> {
+export interface BaseComponentConfig {
     key: string;
     Component: React.FC;
     data: Record<string, DataType>;
