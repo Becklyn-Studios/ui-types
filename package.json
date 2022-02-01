@@ -1,0 +1,39 @@
+{
+    "name": "@mayd/ui-types",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "homepage": "https://github.com/Becklyn-Studios/mayd-ui-types",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Becklyn-Studios/mayd-ui-types.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+        "lint": "prettier --check \"src/**/*.{ts,tsx}\"",
+        "build": "tsc",
+        "prepublishOnly": "npm test && npm run lint && npm run build",
+        "preversion": "npm run lint"
+    },
+    "files": [
+        "lib/**/*"
+    ],
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "dependencies": {
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.38",
+        "prettier": "^2.4.1",
+        "typescript": "^4.4.3"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "printWidth": 100,
+        "singleQuote": false,
+        "arrowParens": "avoid"
+    }
+}
