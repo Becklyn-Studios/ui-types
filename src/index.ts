@@ -15,5 +15,5 @@ export type DataType = "string" | "rte" | "asset" | "labeledLink" | RelationType
 export interface BaseComponentConfig {
     key: string;
     Component: React.FC;
-    data: Record<string, DataType>;
+    data?: Record<string, DataType>;
 }
