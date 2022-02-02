@@ -7,9 +7,11 @@ export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
 export const TYPE_LABELED_LINK = "labeledLink";
 
+export type RelationTypeData = Record<string, DataType>;
+
 export interface RelationType {
     multiple: boolean;
-    data?: Record<string, DataType>;
+    data?: RelationTypeData;
 }
 
 export type DataType =
@@ -25,4 +27,22 @@ export interface BaseComponentConfig<T> {
     key: string;
     Component: React.FC<T>;
     data?: Record<string, DataType>;
+}
+
+export interface Asset {
+    contentType: string;
+    title: string;
+    url: string;
+    width?: number;
+    height?: number;
+}
+
+export interface LabeledLink {
+    label?: string | null;
+    reference?: LinkReference | null;
+}
+
+export interface LinkReference {
+    url: string;
+    inNewTab?: boolean;
 }

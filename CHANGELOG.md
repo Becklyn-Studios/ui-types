@@ -1,3 +1,9 @@
+1.0.4
+=====
+
+*  (improvement) Add `Asset`, `LabeledLink`, `LinkReference` and `RelationTypeData`.
+
+
 1.0.3
 =====
 
