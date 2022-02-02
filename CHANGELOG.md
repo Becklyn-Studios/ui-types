@@ -1,3 +1,10 @@
+1.0.3
+=====
+
+*   (improvement) Add generic type to `BaseComponentConfig`.
+*   (improvement) Rename constants for types.
+
+
 1.0.2
 =====
 
