@@ -1,3 +1,9 @@
+1.0.5
+=====
+
+*  (improvement) Additionally accept `string`, `asset` or `labeledLink` for `data` within `RelationType`.
+
+
 1.0.4
 =====
 

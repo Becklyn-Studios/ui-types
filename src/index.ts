@@ -11,7 +11,7 @@ export type RelationTypeData = Record<string, DataType>;
 
 export interface RelationType {
     multiple: boolean;
-    data?: RelationTypeData;
+    data?: "string" | "asset" | "labeledLink" | RelationTypeData;
 }
 
 export type DataType =
