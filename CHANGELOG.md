@@ -1,6 +1,7 @@
 1.0.6
 =====
 
+*  (improvement) Add type `contentModel`.
 *  (improvement) Accept arrays of relation types to handle `OR` relationships.
 
 

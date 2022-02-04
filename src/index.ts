@@ -6,6 +6,7 @@ export const TYPE_NUMBER = "number";
 export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
 export const TYPE_LABELED_LINK = "labeledLink";
+export const TYPE_CONTENT_MODEL = "contentModel";
 
 export type RelationTypeData = Record<string, DataType>;
 
@@ -21,6 +22,7 @@ export type DataType =
     | "rte"
     | "asset"
     | "labeledLink"
+    | "contentModel"
     | RelationType
     | (RelationType | undefined)[];
 
