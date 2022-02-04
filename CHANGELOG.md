@@ -1,3 +1,9 @@
+1.0.6
+=====
+
+*  (improvement) Accept arrays of relation types to handle `OR` relationships.
+
+
 1.0.5
 =====
 

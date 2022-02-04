@@ -11,7 +11,7 @@ export type RelationTypeData = Record<string, DataType>;
 
 export interface RelationType {
     multiple: boolean;
-    data?: "string" | "asset" | "labeledLink" | RelationTypeData;
+    data?: "string" | "asset" | "labeledLink" | RelationTypeData | (RelationTypeData | undefined)[];
 }
 
 export type DataType =
@@ -21,7 +21,8 @@ export type DataType =
     | "rte"
     | "asset"
     | "labeledLink"
-    | RelationType;
+    | RelationType
+    | (RelationType | undefined)[];
 
 export interface BaseComponentConfig<T> {
     key: string;
