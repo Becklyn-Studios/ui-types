@@ -1,3 +1,9 @@
+1.0.7
+=====
+
+*  (improvement) Add fields `title` and `label` to type `LinkReference`.
+
+
 1.0.6
 =====
 

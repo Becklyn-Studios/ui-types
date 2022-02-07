@@ -48,4 +48,6 @@ export interface LabeledLink {
 export interface LinkReference {
     url: string;
     inNewTab?: boolean;
+    title?: string | null;
+    label?: string | null;
 }
