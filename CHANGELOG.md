@@ -1,8 +1,9 @@
-vNext
+2.0.0
 =====
 
-*  (improvement) Simplify type structure.
-*  (bc) Rename `RelationTypeData` to `ComponentDataConfig`.
+*   (improvement) Simplify type structure.
+*   (bc) Rename `RelationTypeData` to `ComponentDataConfig`.
+*   (feature) Add `TYPE_REFERENCE`.
 
 
 1.0.7
