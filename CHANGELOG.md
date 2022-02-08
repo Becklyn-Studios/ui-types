@@ -1,3 +1,9 @@
+2.0.1
+=====
+
+*   (bug) Remove `(RelationType | undefined)[]` from `DataType`.
+
+
 2.0.0
 =====
 

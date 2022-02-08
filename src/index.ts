@@ -31,8 +31,7 @@ export type DataType =
     | "labeledLink"
     | "reference"
     | "contentModel"
-    | RelationType
-    | (RelationType | undefined)[];
+    | RelationType;
 
 export interface BaseComponentConfig<T> {
     key: string;
