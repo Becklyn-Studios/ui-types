@@ -8,11 +8,16 @@ export const TYPE_ASSET = "asset";
 export const TYPE_LABELED_LINK = "labeledLink";
 export const TYPE_CONTENT_MODEL = "contentModel";
 
-export type RelationTypeData = Record<string, DataType>;
+export type ComponentDataConfig = Record<string, DataType>;
 
 export interface RelationType {
     multiple: boolean;
-    data?: "string" | "asset" | "labeledLink" | RelationTypeData | (RelationTypeData | undefined)[];
+    data?:
+        | "string"
+        | "asset"
+        | "labeledLink"
+        | ComponentDataConfig
+        | (ComponentDataConfig | undefined)[];
 }
 
 export type DataType =
@@ -29,7 +34,7 @@ export type DataType =
 export interface BaseComponentConfig<T> {
     key: string;
     Component: React.FC<T>;
-    data?: RelationTypeData;
+    data?: ComponentDataConfig;
 }
 
 export interface Asset {

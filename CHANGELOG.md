@@ -2,6 +2,7 @@ vNext
 =====
 
 *  (improvement) Simplify type structure.
+*  (bc) Rename `RelationTypeData` to `ComponentDataConfig`.
 
 
 1.0.7
