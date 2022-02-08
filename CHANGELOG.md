@@ -1,3 +1,9 @@
+vNext
+=====
+
+*  (improvement) Simplify type structure.
+
+
 1.0.7
 =====
 

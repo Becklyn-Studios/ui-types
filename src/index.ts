@@ -29,7 +29,7 @@ export type DataType =
 export interface BaseComponentConfig<T> {
     key: string;
     Component: React.FC<T>;
-    data?: Record<string, DataType>;
+    data?: RelationTypeData;
 }
 
 export interface Asset {
