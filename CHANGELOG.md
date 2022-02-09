@@ -1,3 +1,9 @@
+2.0.5
+=====
+
+*   (improvement) Restructure `DataType`.
+
+
 2.0.4
 =====
 

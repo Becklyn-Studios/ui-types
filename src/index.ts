@@ -10,10 +10,17 @@ export const TYPE_CONTENT_MODEL = "contentModel";
 
 export type ComponentDataConfig = Record<string, DataType>;
 
-export interface RelationType {
-    multiple: boolean;
-    data?: "string" | "asset" | "labeledLink" | ComponentDataConfig | string[];
+export interface SingleRelationType {
+    multiple: false;
+    data?: string[] | ComponentDataConfig;
 }
+
+export interface ArrayRelationType {
+    multiple: true;
+    data?: string[] | "string" | "asset" | "labeledLink" | ComponentDataConfig;
+}
+
+export type RelationType = SingleRelationType | ArrayRelationType;
 
 export type DataType =
     | "string"
@@ -23,8 +30,7 @@ export type DataType =
     | "asset"
     | "labeledLink"
     | "contentModel"
-    | RelationType
-    | string[];
+    | RelationType;
 
 export interface BaseComponentConfig<T> {
     key: string;
