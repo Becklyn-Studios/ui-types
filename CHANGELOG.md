@@ -1,3 +1,9 @@
+2.0.4
+=====
+
+*   (improvement) Add `string[]` option to `DataType`.
+
+
 2.0.3
 =====
 
