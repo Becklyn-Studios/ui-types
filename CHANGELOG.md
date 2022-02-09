@@ -1,3 +1,9 @@
+2.0.3
+=====
+
+*   (bug) Fix `RelationType` field `data` for multiple child types.
+
+
 2.0.2
 =====
 

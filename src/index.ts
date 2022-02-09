@@ -12,12 +12,7 @@ export type ComponentDataConfig = Record<string, DataType>;
 
 export interface RelationType {
     multiple: boolean;
-    data?:
-        | "string"
-        | "asset"
-        | "labeledLink"
-        | ComponentDataConfig
-        | (ComponentDataConfig | undefined)[];
+    data?: "string" | "asset" | "labeledLink" | ComponentDataConfig | string[];
 }
 
 export type DataType =
