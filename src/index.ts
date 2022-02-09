@@ -5,7 +5,6 @@ export const TYPE_BOOL = "bool";
 export const TYPE_NUMBER = "number";
 export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
-export const TYPE_REFERENCE = "reference";
 export const TYPE_LABELED_LINK = "labeledLink";
 export const TYPE_CONTENT_MODEL = "contentModel";
 
@@ -16,7 +15,6 @@ export interface RelationType {
     data?:
         | "string"
         | "asset"
-        | "reference"
         | "labeledLink"
         | ComponentDataConfig
         | (ComponentDataConfig | undefined)[];
@@ -29,7 +27,6 @@ export type DataType =
     | "rte"
     | "asset"
     | "labeledLink"
-    | "reference"
     | "contentModel"
     | RelationType;
 
@@ -56,5 +53,4 @@ export interface LinkReference {
     url: string;
     inNewTab?: boolean;
     title?: string | null;
-    label?: string | null;
 }

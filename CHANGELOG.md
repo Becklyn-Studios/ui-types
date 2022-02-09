@@ -1,3 +1,10 @@
+2.0.2
+=====
+
+*   (bug) Remove `TYPE_REFERENCE`.
+*   (bug) Remove `label` from `LinkReference`.
+
+
 2.0.1
 =====
 
