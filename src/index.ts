@@ -56,3 +56,10 @@ export interface LinkReference {
     inNewTab?: boolean;
     title?: string | null;
 }
+
+export interface RteData {
+    json: Document;
+    references: ReferencesData;
+}
+
+export type ReferencesData = Record<string, Asset | LinkReference>;

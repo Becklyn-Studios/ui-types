@@ -1,3 +1,10 @@
+2.1.0
+=====
+
+*   (feature) Add `RteData` interface.
+*   (feature) Add `ReferencesData` type.
+
+
 2.0.5
 =====
 
