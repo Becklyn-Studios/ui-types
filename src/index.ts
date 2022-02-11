@@ -6,7 +6,6 @@ export const TYPE_NUMBER = "number";
 export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
 export const TYPE_LABELED_LINK = "labeledLink";
-export const TYPE_CONTENT_MODEL = "contentModel";
 
 export type ComponentDataConfig = Record<string, DataType>;
 
@@ -29,7 +28,6 @@ export type DataType =
     | "rte"
     | "asset"
     | "labeledLink"
-    | "contentModel"
     | RelationType;
 
 export interface BaseComponentConfig<T> {
@@ -63,3 +61,11 @@ export interface RteData {
 }
 
 export type ReferencesData = Record<string, Asset | LinkReference>;
+
+export interface MetaData {
+    title?: string | null;
+    description?: string | null;
+    keywords?: string[];
+    no_index?: boolean | null;
+    no_follow?: boolean | null;
+}

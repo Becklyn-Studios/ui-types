@@ -1,3 +1,10 @@
+3.0.0
+=====
+
+*   (bc) Remove `TYPE_CONTENT_MODEL`.
+*   (feature) Add `MetaData` type.
+
+
 2.1.0
 =====
 
