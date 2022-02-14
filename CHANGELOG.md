@@ -1,3 +1,9 @@
+3.0.1
+=====
+
+*   (bug) Move `RteData` and `ReferencesData` to `mayd-contentful-adapter`.
+
+
 3.0.0
 =====
 

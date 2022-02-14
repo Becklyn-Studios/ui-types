@@ -55,13 +55,6 @@ export interface LinkReference {
     title?: string | null;
 }
 
-export interface RteData {
-    json: Document;
-    references: ReferencesData;
-}
-
-export type ReferencesData = Record<string, Asset | LinkReference>;
-
 export interface MetaData {
     title?: string | null;
     description?: string | null;
