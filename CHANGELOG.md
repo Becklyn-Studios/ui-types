@@ -1,3 +1,9 @@
+3.1.0
+=====
+
+*   (feature) Add support for custom data types.
+
+
 3.0.1
 =====
 

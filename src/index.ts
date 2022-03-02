@@ -28,7 +28,8 @@ export type DataType =
     | "rte"
     | "asset"
     | "labeledLink"
-    | RelationType;
+    | RelationType
+    | string;
 
 export interface BaseComponentConfig<T> {
     key: string;
