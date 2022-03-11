@@ -1,3 +1,9 @@
+3.2.0
+=====
+
+*   (feature) Add `TYPE_HEADLINE`.
+
+
 3.1.0
 =====
 

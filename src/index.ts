@@ -5,6 +5,7 @@ export const TYPE_BOOL = "bool";
 export const TYPE_NUMBER = "number";
 export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
+export const TYPE_HEADLINE = "headline";
 export const TYPE_LABELED_LINK = "labeledLink";
 
 export type ComponentDataConfig = Record<string, DataType>;
@@ -27,6 +28,7 @@ export type DataType =
     | "number"
     | "rte"
     | "asset"
+    | "headline"
     | "labeledLink"
     | RelationType
     | string;
