@@ -12,12 +12,12 @@ export type ComponentDataConfig = Record<string, DataType>;
 
 export interface SingleRelationType {
     multiple: false;
-    data?: string[] | ComponentDataConfig;
+    data?: string[] | BaseComponentConfig<any>;
 }
 
 export interface ArrayRelationType {
     multiple: true;
-    data?: string[] | "string" | "asset" | "labeledLink" | ComponentDataConfig;
+    data?: string[] | "string" | "asset" | "labeledLink" | BaseComponentConfig<any>;
 }
 
 export type RelationType = SingleRelationType | ArrayRelationType;

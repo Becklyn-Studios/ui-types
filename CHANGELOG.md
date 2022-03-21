@@ -1,3 +1,9 @@
+4.0.0
+=====
+
+*   (bc) `SingleRelationType` and `ArrayRelationType` now use `BaseComponentConfig` instead of `ComponentDataConfig`.
+
+
 3.2.0
 =====
 
