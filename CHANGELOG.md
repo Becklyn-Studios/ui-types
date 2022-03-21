@@ -1,3 +1,9 @@
+4.0.1
+=====
+
+*   (bug) Remove outdated `Component` and generic type from `BaseComponentConfig`.
+
+
 4.0.0
 =====
 

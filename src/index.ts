@@ -1,5 +1,3 @@
-import React from "react";
-
 export const TYPE_STRING = "string";
 export const TYPE_BOOL = "bool";
 export const TYPE_NUMBER = "number";
@@ -12,12 +10,12 @@ export type ComponentDataConfig = Record<string, DataType>;
 
 export interface SingleRelationType {
     multiple: false;
-    data?: string[] | BaseComponentConfig<any>;
+    data?: string[] | BaseComponentConfig;
 }
 
 export interface ArrayRelationType {
     multiple: true;
-    data?: string[] | "string" | "asset" | "labeledLink" | BaseComponentConfig<any>;
+    data?: string[] | "string" | "asset" | "labeledLink" | BaseComponentConfig;
 }
 
 export type RelationType = SingleRelationType | ArrayRelationType;
@@ -33,9 +31,8 @@ export type DataType =
     | RelationType
     | string;
 
-export interface BaseComponentConfig<T> {
+export interface BaseComponentConfig {
     key: string;
-    Component: React.FC<T>;
     data?: ComponentDataConfig;
 }
 
