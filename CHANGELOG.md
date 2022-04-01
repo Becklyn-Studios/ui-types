@@ -1,7 +1,14 @@
+4.1.0
+=====
+
+*   (feature) Allow array of `BaseComponentConfig` in `SingleRelationType`.
+*   (feature) Allow array of `BaseComponentConfig` in `ArrayRelationType`.
+
+
 4.0.1
 =====
 
-*   (bug) Remove outdated `Component` and generic type from `BaseComponentConfig`.
+*    (bug) Remove outdated `Component` and generic type from `BaseComponentConfig`.
 
 
 4.0.0
