@@ -5,6 +5,7 @@ export const TYPE_RTE = "rte";
 export const TYPE_ASSET = "asset";
 export const TYPE_HEADLINE = "headline";
 export const TYPE_LABELED_LINK = "labeledLink";
+export const TYPE_RAW = "raw";
 
 export type ComponentDataConfig = Record<string, DataType>;
 
@@ -33,6 +34,7 @@ export type DataType =
     | "asset"
     | "headline"
     | "labeledLink"
+    | "raw"
     | RelationType
     | string;
 
