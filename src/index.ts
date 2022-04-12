@@ -53,7 +53,7 @@ export interface Asset {
 
 export interface LabeledLink {
     label?: string | null;
-    reference?: LinkReference | null;
+    reference?: LinkReference | (() => void) | null;
 }
 
 export interface LinkReference {

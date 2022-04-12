@@ -1,3 +1,9 @@
+4.3.0
+=====
+
+*   (feature) Allow functions in `LabeledLink` `reference`.
+
+
 4.2.0
 =====
 
