@@ -1,8 +1,14 @@
 {
-    "name": "@mayd/ui-types",
+    "name": "@becklyn/ui-types",
     "version": "4.3.0",
-    "license": "UNLICENSED",
+    "license": "BSD-3-Clause",
     "homepage": "https://github.com/Becklyn-Studios/mayd-ui-types",
+    "keywords": [
+        "becklyn",
+        "library",
+        "ui",
+        "typescript"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Becklyn-Studios/mayd-ui-types.git"

@@ -1,156 +1,111 @@
-4.3.0
-=====
+# 5.0.0
 
-*   (feature) Allow functions in `LabeledLink` `reference`.
+-   (bc) Public release
 
+# 4.3.0
 
-4.2.0
-=====
+-   (feature) Allow functions in `LabeledLink` `reference`.
 
-*   (feature) Add `TYPE_RAW`.
+# 4.2.0
 
+-   (feature) Add `TYPE_RAW`.
 
-4.1.1
-=====
+# 4.1.1
 
-*    (bug) Remove unintended BC.
+-   (bug) Remove unintended BC.
 
+# 4.1.0
 
-4.1.0
-=====
+-   (feature) Allow array of `BaseComponentConfig` in `SingleRelationType`.
+-   (feature) Allow array of `BaseComponentConfig` in `ArrayRelationType`.
 
-*   (feature) Allow array of `BaseComponentConfig` in `SingleRelationType`.
-*   (feature) Allow array of `BaseComponentConfig` in `ArrayRelationType`.
+# 4.0.1
 
+-   (bug) Remove outdated `Component` and generic type from `BaseComponentConfig`.
 
-4.0.1
-=====
+# 4.0.0
 
-*    (bug) Remove outdated `Component` and generic type from `BaseComponentConfig`.
+-   (bc) `SingleRelationType` and `ArrayRelationType` now use `BaseComponentConfig` instead of `ComponentDataConfig`.
 
+# 3.2.0
 
-4.0.0
-=====
+-   (feature) Add `TYPE_HEADLINE`.
 
-*   (bc) `SingleRelationType` and `ArrayRelationType` now use `BaseComponentConfig` instead of `ComponentDataConfig`.
+# 3.1.0
 
+-   (feature) Add support for custom data types.
 
-3.2.0
-=====
+# 3.0.1
 
-*   (feature) Add `TYPE_HEADLINE`.
+-   (bug) Move `RteData` and `ReferencesData` to `mayd-contentful-adapter`.
 
+# 3.0.0
 
-3.1.0
-=====
+-   (bc) Remove `TYPE_CONTENT_MODEL`.
+-   (feature) Add `MetaData` type.
 
-*   (feature) Add support for custom data types.
+# 2.1.0
 
+-   (feature) Add `RteData` interface.
+-   (feature) Add `ReferencesData` type.
 
-3.0.1
-=====
+# 2.0.5
 
-*   (bug) Move `RteData` and `ReferencesData` to `mayd-contentful-adapter`.
+-   (improvement) Restructure `DataType`.
 
+# 2.0.4
 
-3.0.0
-=====
+-   (improvement) Add `string[]` option to `DataType`.
 
-*   (bc) Remove `TYPE_CONTENT_MODEL`.
-*   (feature) Add `MetaData` type.
+# 2.0.3
 
+-   (bug) Fix `RelationType` field `data` for multiple child types.
 
-2.1.0
-=====
+# 2.0.2
 
-*   (feature) Add `RteData` interface.
-*   (feature) Add `ReferencesData` type.
+-   (bug) Remove `TYPE_REFERENCE`.
+-   (bug) Remove `label` from `LinkReference`.
 
+# 2.0.1
 
-2.0.5
-=====
+-   (bug) Remove `(RelationType | undefined)[]` from `DataType`.
 
-*   (improvement) Restructure `DataType`.
+# 2.0.0
 
+-   (improvement) Simplify type structure.
+-   (bc) Rename `RelationTypeData` to `ComponentDataConfig`.
+-   (feature) Add `TYPE_REFERENCE`.
 
-2.0.4
-=====
+# 1.0.7
 
-*   (improvement) Add `string[]` option to `DataType`.
+-   (improvement) Add fields `title` and `label` to type `LinkReference`.
 
+# 1.0.6
 
-2.0.3
-=====
+-   (improvement) Add type `contentModel`.
+-   (improvement) Accept arrays of relation types to handle `OR` relationships.
 
-*   (bug) Fix `RelationType` field `data` for multiple child types.
+# 1.0.5
 
+-   (improvement) Additionally accept `string`, `asset` or `labeledLink` for `data` within `RelationType`.
 
-2.0.2
-=====
+# 1.0.4
 
-*   (bug) Remove `TYPE_REFERENCE`.
-*   (bug) Remove `label` from `LinkReference`.
+-   (improvement) Add `Asset`, `LabeledLink`, `LinkReference` and `RelationTypeData`.
 
+# 1.0.3
 
-2.0.1
-=====
+-   (improvement) Add generic type to `BaseComponentConfig`.
+-   (improvement) Rename constants for types.
 
-*   (bug) Remove `(RelationType | undefined)[]` from `DataType`.
+# 1.0.2
 
+-   (improvement) Make field `data` of `BaseComponentConfig` optional.
 
-2.0.0
-=====
+# 1.0.1
 
-*   (improvement) Simplify type structure.
-*   (bc) Rename `RelationTypeData` to `ComponentDataConfig`.
-*   (feature) Add `TYPE_REFERENCE`.
+-   (bug) Fix type `BaseComponentConfig`.
 
+# 1.0.0
 
-1.0.7
-=====
-
-*  (improvement) Add fields `title` and `label` to type `LinkReference`.
-
-
-1.0.6
-=====
-
-*  (improvement) Add type `contentModel`.
-*  (improvement) Accept arrays of relation types to handle `OR` relationships.
-
-
-1.0.5
-=====
-
-*  (improvement) Additionally accept `string`, `asset` or `labeledLink` for `data` within `RelationType`.
-
-
-1.0.4
-=====
-
-*  (improvement) Add `Asset`, `LabeledLink`, `LinkReference` and `RelationTypeData`.
-
-
-1.0.3
-=====
-
-*   (improvement) Add generic type to `BaseComponentConfig`.
-*   (improvement) Rename constants for types.
-
-
-1.0.2
-=====
-
-*   (improvement) Make field `data` of `BaseComponentConfig` optional.
-
-
-1.0.1
-=====
-
-*   (bug) Fix type `BaseComponentConfig`.
-
-
-1.0.0
-=====
-
-*   (feature) Initial release.
+-   (feature) Initial release.
