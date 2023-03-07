@@ -1,6 +1,6 @@
 # UI Types
 
-[![CI](https://github.com/Becklyn-Studios/mayd-ui-types/actions/workflows/ci.yml/badge.svg)](https://github.com/Becklyn-Studios/mayd-ui-types/actions/workflows/ci.yml)
+[![CI](https://github.com/Becklyn-Studios/ui-types/actions/workflows/ci.yml/badge.svg)](https://github.com/Becklyn-Studios/ui-types/actions/workflows/ci.yml)
 
 ## Usage
 
